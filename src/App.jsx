@@ -1,14 +1,13 @@
-import { useState } from "react";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Button from "./components/Button";
+import Header from "./components/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>Hello</h1>
-      <Button>hello wi</Button>
+    <div className="pt-[7.75rem] lg:pt-[5.25rem] overflow-hidden">
+      <Header/>
+    </div>
       <ButtonGradient />
     </>
   );
